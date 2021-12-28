@@ -1,0 +1,12 @@
+.cells-form{
+    
+}
+
+.current-cell-form{
+    background-color: black;
+    border-radius: 50%;
+}
+
+.hidden-cell{
+    width: 3px;
+}

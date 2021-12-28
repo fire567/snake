@@ -1,0 +1,79 @@
+.popup-form{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(179, 173, 159, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content{
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.popup-header{
+    height: 60px;
+    border-bottom: 1px solid #616161;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress-inf{
+    height: -webkit-fill-available;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-form{
+    height: 200px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.agree-btn{
+    border-radius: 10px;
+    outline: none;
+    border:none;
+    height: 40px;
+    width: 70px;
+    background-color: #14ff53;
+    color: white;
+    cursor: pointer;
+}
+
+.agree-btn:hover{
+    background-color: #00c234;
+}
+
+.decline-btn{
+    margin-left: 20px;
+    border-radius: 10px;
+    outline: none;
+    border:none;
+    height: 40px;
+    width: 70px;
+    background-color: #ff1f26;
+    color: white;
+    cursor: pointer;
+}
+
+.decline-btn:hover{
+    background-color: #c40007;
+}
+
+.buttons{
+    margin-top: 20px;
+}

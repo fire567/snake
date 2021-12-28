@@ -1,0 +1,11 @@
+.field-form{
+    width: 560px;
+    height: 540px;
+    border: 1px solid black;
+    display: grid;
+    /*grid-template-columns: 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px;*/
+    /*grid-template-columns: 75px 75px 75px 75px 75px 75px 75px 75px; */
+    grid-template-columns: 0px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px;
+    grid-template-rows: 0px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px;
+}
+
